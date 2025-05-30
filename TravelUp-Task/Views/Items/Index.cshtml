@@ -1,0 +1,11 @@
+﻿@model List<TravelUp_Task.Models.Item>
+
+<h2>Items</h2>
+<ul id="itemList">
+    @foreach (var item in Model)
+    {
+        <li>@item.Name</li>
+    }
+</ul>
+
+<a href="/Items/Create">Add Item</a>
