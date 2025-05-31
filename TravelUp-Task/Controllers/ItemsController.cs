@@ -12,6 +12,12 @@ public class ItemsController : Controller
     {
         var items = _context.Items.ToList();
         return View(items);
+
+    //    var items = new List<Item> {
+    //    new Item { Id = 1, Name = "Test Item 1" },
+    //    new Item { Id = 2, Name = "Test Item 2" }
+    //};
+        //return View(items);
     }
 
     public IActionResult Create() => View();

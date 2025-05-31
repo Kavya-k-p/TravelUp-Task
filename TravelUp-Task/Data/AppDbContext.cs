@@ -1,5 +1,5 @@
 ﻿
-using TravelUp_Task.Models; // Adjust based on your actual project structure
+using TravelUp_Task.Models; 
 using Microsoft.EntityFrameworkCore;
 
 
